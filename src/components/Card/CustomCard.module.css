@@ -1,0 +1,70 @@
+.card_item {
+  margin-top: 0.7rem;
+  border: none;
+  margin: 20px;
+  width: 265px;
+}
+.img_box {
+  position: relative;
+}
+.cardImg {
+  width: 100%;
+  border-radius: 4px;
+}
+.img_heart {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+.details_bar {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  padding-left: 0 !important;
+  margin-top: 0.9rem;
+}
+.details_bar li {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.side_padding {
+  padding: 0 10px;
+}
+.side_border {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+.box_padding {
+  padding: 0 10px;
+  padding: 0 10px;
+}
+.price {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 24px;
+}
+.card_details {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 14px;
+}
+.card_date {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 32px;
+  color: #979797;
+}
+@media (max-width: 767px) {
+  .card_item {
+    margin: 20px auto;
+  }
+}

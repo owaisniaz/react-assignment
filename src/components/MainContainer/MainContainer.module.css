@@ -1,0 +1,16 @@
+.main_wrapper {
+  width: 90%;
+  margin: auto;
+}
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1rem;
+}
+@media (max-width: 767px) {
+  .main_container {
+    justify-content: center;
+  }
+}

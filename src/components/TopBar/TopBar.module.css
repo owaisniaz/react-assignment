@@ -1,0 +1,18 @@
+.brand_name {
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-decoration: none !important;
+  color: #000;
+  margin-left: 20px;
+}
+.topbar {
+  padding: 20px 0;
+  background: #f4f4f4;
+}
+.topbar_container {
+  width: 90%;
+  margin: auto;
+}
